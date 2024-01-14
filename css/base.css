@@ -1,0 +1,90 @@
+:root {
+    --text: #101010;
+    --text2: #444;
+    --bg: #ffffff;
+    --bg50: #ffffff80;
+    --bg70: #ffffffa0;
+    --sd: #22222230;
+    --card: #efefef55;
+    --hover: #ffffff65;
+    --hover-half: #ffffff40;
+    --hover-b: #1111110f;
+    --bggrey: #ddd;
+    --fill: #d3d3d370;
+    --bgul: url('bg.svg');
+    --mm: #ffffffc0;
+    --cm: #fafafabb;
+    --bar: #efefef37;
+    --hr: #ccc;
+    --unfoc: #eaeaea;
+    --msg: #ffffffe7;
+    --theme-1: #ad6eca;
+    --theme-2: #3b91d8;
+    --href: #2983cc;
+    --bd: #8f8f8f30;
+    --s3d: #99999947;
+    --mica: linear-gradient(215deg, #ffe7f6, #a9c3ff);
+}
+
+:root.dark {
+    --text: #ddd;
+    --text2: #aaa;
+    --bg: #000000;
+    --bg50: #00000060;
+    --bg70: #00000090;
+    --sd: #000000a0;
+    --card: #72727240;
+    --hover: #aaaaaa15;
+    --hover-half: #ffffff0a;
+    --hover-b: #eeeeee0f;
+    --bggrey: #444;
+    --fill: #54545470;
+    --bgul: url('bg-dark.svg');
+    --mm: #ffffff50;
+    --cm: #252525bb;
+    --bar: #7272722a;
+    --hr: #333;
+    --unfoc: #202020;
+    --msg: #303030d0;
+    --bd: #ffffff06;
+    --s3d: #11111150;
+    --mica: linear-gradient(215deg, #2d161c, #102d53);
+}
+
+::-webkit-scrollbar {
+    border-radius: .7rem;
+    height: 1.4rem;
+    width: 1.4rem;
+}
+
+::-webkit-scrollbar:hover {
+    background-color: var(--card);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7f7f7f70;
+    background-clip: padding-box;
+    border: .6rem solid transparent;
+    border-radius: 1.0rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    border: .4rem solid transparent;
+}
+
+::-webkit-scrollbar-corner {
+    display: none;
+}
+
+* {
+    margin: 0;
+    /* 优化：合并重复的 CSS 属性 */
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    height: 100vh;
+    font-size: 62.5%;
+}
